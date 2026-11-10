@@ -1,5 +1,8 @@
 # KISS Translator 订阅规则
 
+协作开发、Agent 提交与合并规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+
 维护者：Rowan-memoedu。唯一维护入口是本仓库的 `kiss-rules_v2.json`。
 
 ## 订阅地址
