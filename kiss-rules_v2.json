@@ -3,7 +3,7 @@
     "pattern": "www.mathacademy.com",
     "enabled": true,
     "selector": ".step:not(.questionWidget) p, .step:not(.questionWidget) li:not(:has(p)), .questionWidget-text:not(:has(> .selectList)) p, .questionWidget-text:has(> .selectList), .questionWidget-explanation p, .questionWidget-explanation li:not(:has(p))",
-    "keepSelector": "code, cite, math, .math, a:has(code)",
+    "keepSelector": "code, cite, math, .math, a:has(code), .mjpage",
     "blockSelector": "",
     "rootsSelector": "body",
     "ignoreSelector": "button, footer, pre, mark, nav, .mjpage, mjx-container, math, .math, .MathJax, .selectList, input, svg, img, canvas",
