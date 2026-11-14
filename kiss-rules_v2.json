@@ -2,7 +2,7 @@
   {
     "pattern": "www.mathacademy.com",
     "enabled": true,
-    "selector": ".step:not(.questionWidget) p, .step:not(.questionWidget) li:not(:has(p)), .questionWidget-text:not(:has(> .selectList)) p, .questionWidget-text:has(> .selectList), .questionWidget-explanation p, .questionWidget-explanation li:not(:has(p))",
+    "selector": ".step:not(.questionWidget) p, .step:not(.questionWidget) li:not(:has(p)), .questionWidget-text:not(:has(> .selectList)) p, .questionWidget-text:has(> .selectList), .questionWidget-explanation p, .questionWidget-explanation li:not(:has(p)), .step .stepName, .step .explanationHeader",
     "keepSelector": "code, cite, math, .math, a:has(code), .mjpage",
     "blockSelector": "",
     "rootsSelector": "body",
@@ -28,7 +28,7 @@
     "transOnlyRevert": "false",
     "transOnlyRevertDelay": "0.5",
     "transOrder": "original-first",
-    "autoScan": "false",
+    "autoScan": "true",
     "hasRichText": "false",
     "hasShadowroot": "false",
     "scanAll": "false",
