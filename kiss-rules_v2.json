@@ -846,7 +846,7 @@
     "keepSelector": "code, cite, math, .math, a:has(code)",
     "blockSelector": "span:has(> button), span:has(input, textarea, select, math-field, [contenteditable='true']), div:has(> input, > textarea, > select, > math-field, > [contenteditable='true']), button, input, textarea, select, [contenteditable='true'], math-field, .mq-editable-field, .katex, .MathJax, mjx-container, math",
     "rootsSelector": "body",
-    "ignoreSelector": "footer, pre, mark, nav, .katex, .MathJax, mjx-container, math, input, textarea, select, [contenteditable='true'], math-field, .mq-editable-field, [aria-hidden='true'], svg, img, canvas, button:not(:has(.lesson-content-container))",
+    "ignoreSelector": "footer, pre, mark, nav, .katex, .MathJax, mjx-container, math, input, textarea, select, [contenteditable='true'], math-field, .mq-editable-field, [aria-hidden='true'], svg, img, canvas, button:not(:has(.lesson-content-container)), :not(.lesson-content-container, .lesson-content-container *, .question-content p, .question-content p *):not(:has(.lesson-content-container, .question-content p))",
     "terms": "",
     "aiTerms": "",
     "termsStyle": "font-weight: bold;",
